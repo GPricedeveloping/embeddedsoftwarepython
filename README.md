@@ -1,5 +1,5 @@
-Summary**
-**The objective of this project was to design a smart thermostat prototype on a Raspberry Pi that can sense room temperature, switch heating and cooling indicators (LEDs), refresh a user display, and send temperature data via UART communication. The project addressed the issue of simulating an actual embedded thermostat system that can communicate with many hardware units through software control and state machine logic.
+**Summary**
+The objective of this project was to design a smart thermostat prototype on a Raspberry Pi that can sense room temperature, switch heating and cooling indicators (LEDs), refresh a user display, and send temperature data via UART communication. The project addressed the issue of simulating an actual embedded thermostat system that can communicate with many hardware units through software control and state machine logic.
 
 **What Did I Do Particularly Well?**
 I integrated all the system components, sensor input (I2C), button-driven state management (GPIO interrupts), LCD output, LED feedback, and UART serial communication into a working, fully synchronized system. I’m especially proud of how cleanly the state machine handled transitions, ensuring the thermostat remained responsive and accurate throughout testing.
